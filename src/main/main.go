@@ -1,12 +1,8 @@
 package main
 
-import "fmt"
-
 func main() {
 
-	var a = "aaaa "
-	fmt.Println(&a)
-
+	removeNodesTest()
 }
 
 type IntSlice []int
